@@ -120,7 +120,8 @@ a:hover {
               transform var(--animation-duration) var(--animation-easing);
 }
 
-.scroll-animate.visible {
+.scroll-animate.visible,
+.visible .scroll-animate {
   opacity: 1;
   transform: translateY(0);
 }
