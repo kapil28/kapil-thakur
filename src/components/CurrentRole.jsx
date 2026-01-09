@@ -43,7 +43,7 @@ function CurrentRole() {
                         </ul>
                     </div>
                     <div className="layout-image">
-                        <img src="/images/team-meeting.png" alt="Team meeting illustration" />
+                        <img src={`${import.meta.env.BASE_URL}images/team-meeting.png`} alt="Team meeting illustration" />
                     </div>
                 </div>
             </div>

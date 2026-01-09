@@ -47,7 +47,7 @@ function Hero() {
                 </div>
             </div>
             <div className="hero-image scroll-animate visible">
-                <img src="/images/profile.png" alt="Kapil Thakur" />
+                <img src={`${import.meta.env.BASE_URL}images/profile.png`} alt="Kapil Thakur" />
             </div>
         </section>
     );

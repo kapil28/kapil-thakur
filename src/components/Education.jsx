@@ -32,7 +32,7 @@ function Education() {
                         left: 0,
                         right: 0,
                         bottom: 0,
-                        backgroundImage: 'url(/images/university.png)',
+                        backgroundImage: `url(${import.meta.env.BASE_URL}images/university.png)`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         opacity: 0.2,

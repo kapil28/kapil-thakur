@@ -40,7 +40,7 @@ function Aspirations() {
                         </blockquote>
                     </div>
                     <div className="layout-image">
-                        <img src="/images/ai-visualization.png" alt="AI visualization" />
+                        <img src={`${import.meta.env.BASE_URL}images/ai-visualization.png`} alt="AI visualization" />
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ function Aspirations() {
                         View Full Profile
                     </a>
                     <a
-                        href="/resume.docx"
+                        href={`${import.meta.env.BASE_URL}resume.docx`}
                         className="btn btn-outline"
                         download="Kapil_Thakur_Resume.docx"
                     >

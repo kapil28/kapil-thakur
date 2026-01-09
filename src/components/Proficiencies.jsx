@@ -51,7 +51,7 @@ function Proficiencies() {
                 <h2>Technical Proficiencies</h2>
                 <div className="layout-with-image reverse" style={{ marginTop: '2rem' }}>
                     <div className="layout-image">
-                        <img src="/images/developer-workspace.png" alt="Developer workspace" />
+                        <img src={`${import.meta.env.BASE_URL}images/developer-workspace.png`} alt="Developer workspace" />
                     </div>
                     <div className="layout-content">
                         <div className="grid grid-2 stagger-children">
